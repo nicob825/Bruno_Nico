@@ -1,0 +1,8 @@
+name=input("what is your name?")
+print(name,"really? thought you would have a better name.")
+age=input("how old are you?")
+print(age,"really? thought you would be older, you look much older.")
+fun=input("what do you do for fun?")
+print(fun,"that sure sounds stupid!jk jk")
+music=input("what type of music do you like")
+print("you like",music,", wow thats terrible")
