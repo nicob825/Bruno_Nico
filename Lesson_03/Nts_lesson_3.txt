@@ -2,5 +2,5 @@
 -call function by name and it will define the behavior and action of that program
 -python makes taking user input simple
 -input() is string data by default, cant do math in plain text, you use casting
-	-casting allows you to take one kind of 	 data and turn it into another
--
+-casting allows you to take one kind of 	 
+-data and turn it into another

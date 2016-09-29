@@ -1,0 +1,34 @@
+-function parameters allow us to do the same function over and over again
+-we "call" a function by its name, set of parentheses, and any data added in as a parameter
+-void:dont havt return a value
+-return:returns a the value back
+-scope of a variable means the area of the program which the variable will be usable
+-variables will be callable only within when the functions where u create them
+-globale variables are declared at the top of the program(have no indentation)
+	-can be accessed anywhere in class
+1. You begin writing a program by defining a function. A program file consists of smaller 
+mechanisms that work together. You dont need fancy development software because some code is universal.
+2. A method needs to be at the top of the programs because it can define other functions below it.
+Python runs lines of code by defing it on the top and then your functions at the bottom, telling
+it what to do. 
+3. we need parameters topass data into the function from the outside. They enhance our use of methods by
+making it possible to perform the same function over and over again.
+4 The difference bettween a return methods and other methods is that return methods return our value back
+while another method(void) doesnt return the calue back to use. 
+
+
+Data Types
+-str: represents text
+-integer:carry no fractional(decimal) part and can be negative or positive.
+-float:datatype of decimal number
+-list:basic structure of python. Each element of a sequence is assigned a number its position or index
+-tuple:sequence of immutable objects. Tuples cannot be changed and they use parentheses where lists use brackets
++:adds values on either side of the operator
+-:subtracts right hand operad from left hand operand
+*:multiplies values of either side of the operator
+/:divides left hand operand by right hand operand
+%:divides left hand operand from right hand operand and returns the remainder
+**:performds exponential calculations on operators
+//:Floor division- the division on operands where the result is the quotient in which the digits after the decimal
+ point are removed. But if one of the operands is negative, the result is floored ,i.e., rounded away from zero 
+(towards negative infinity).
