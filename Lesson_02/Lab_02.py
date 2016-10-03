@@ -7,8 +7,10 @@ L=8
 W=5
 recSurf=W*L+W*L+h*L+h*L+h*W+h*W
 print("the surface area of your rectangle is", recSurf)
-name="Genese Avenue"
-adress=9603
+NAME="Nico Bruno"
+name="9603 Genese Avenue"
 city="San Diego, CA"
 zip=92103
-print(adress, name, city, zip)
+print(NAME)
+print(name)
+print(city, zip)
