@@ -1,6 +1,4 @@
-
-x=input("this is calculator, press enter:")
-weight=int(input("Please enter what you weigh in pounds. "))
-height=int(input("Please enter your height in inches. "))
-bmi=(weight/(height*height))*703
-print("Your bmi is", bmi)
+weight=float(input("Enter your weight:"))
+height=float(input("Enter your height:"))
+BMI=(weight/(height*height))*703
+print("Your BMI is",BMI)
