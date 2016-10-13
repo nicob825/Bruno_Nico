@@ -1,0 +1,28 @@
+word1=input("Please enter your word")
+word2="handsome"
+
+
+same=word1==word2
+
+if same:
+    print("they are the same!")
+
+if not same:
+    print("mismatch")
+
+import random
+num=random.randint(1,10)
+print("The value of:", num)
+if num==5:
+    print("Nume equals 5")
+
+if not num<=3:
+    print("Nume does not equal 5")
+
+one=int(input("please enter number"))
+two=int(input("please enter a second number:"))
+even=(one+two)%2==0
+if even:
+    print((one+two),"is even!")
+if not even:
+    print((one+two),"is odd!")
