@@ -1,12 +1,8 @@
-area=0
+r=int(input("Enter your radius:"))
 def Radius():
-    global r
-    r=int(input("Enter the radius:"))
-
+    return (r**2)*3.14
 def calcArea():
-    global area
-    area=(r**2)*3.14
+    print("The area of your circle is",Radius())
 
 Radius()
 calcArea()
-print("The area of your cirlce whose radius is", r," is",area)

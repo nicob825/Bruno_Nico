@@ -1,14 +1,13 @@
-SA=0
+side=int(input("Enter your side length:"))
+
 def Cube():
-    global side
-    side=int(input("Enter your side length:"))
+    return 6*(side**2)
 
 def calcSA():
-    global SA
-    SA=6*(side**2)
+    print("The Surface area of your cube is",Cube()," and the side is",side)
+    
 
 Cube()
 calcSA()
 
-print("The surface area of your cube is", SA," and the side is", side)
     
