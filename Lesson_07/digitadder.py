@@ -1,10 +1,14 @@
+def sumDigit():
+    global num
+    global summ
+    while num > 0:
+        summ += num % 10 
+        num = int(num / 10)
+
 number=int(input("Enter the number:"))
 num=number
-sum=0
-def sumDigit():
-    while num > 0:
-        sum += 1
-        num = int(num / 10)
-print("The sum of the digits in",number," is",sum)
+summ = 0
 
 sumDigit()
+
+print("The sum of the digits in",number," is",summ)
