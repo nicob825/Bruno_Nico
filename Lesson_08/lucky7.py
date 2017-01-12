@@ -1,11 +1,12 @@
 number=int(input("Enter a number:"))
-num=number
-def Luck():
-    global num
+numb=number
+def Luck(num):
     if num > 0:
-        return 
+        if num % 10 == 7:
+            return 1 + Luck(int(num/10))
+        else:
+            return 0 + Luck(int(num/10))
+    return 0
+print(Luck(numb))
 
 
-
-    else:
-        return num
