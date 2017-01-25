@@ -12,4 +12,8 @@ print("")
 
 print("Just the first letters...")
 def First():
-    for i in 
+    for i in myList:
+        print(i[0])
+
+
+First()
