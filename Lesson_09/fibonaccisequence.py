@@ -5,9 +5,10 @@ seq = []
 
 for i in range(0, size):
     
-    if i == 0 or 1:
+    if i == 0 or i == 1:
         seq.append(start)
 
     else:
-        summ = 0
+        seq.append(seq[i - 1] + seq[i - 2])
+    print(seq[i]," ")
         
