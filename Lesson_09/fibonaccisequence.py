@@ -3,4 +3,11 @@ size=int(input("Please enter the sequence size:"))
 
 seq = []
 
-for i in 
+for i in range(0, size):
+    
+    if i == 0 or 1:
+        seq.append(start)
+
+    else:
+        summ = 0
+        
