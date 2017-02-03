@@ -11,13 +11,3 @@ for numbers in nums:
     for number in numbers:
         output += str(number) + " "
     print(output)
-
-division = int(input("Enter a number:"))
-
-count = 0
-for numbers in nums:
-    for number in numbers:
-        if number % division == 0:
-            count += 1
-
-print("There are",count,"numbers divisible by",division,"in the list")
