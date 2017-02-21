@@ -10,12 +10,20 @@
 		body {
 			background-color:yellow;
 		}
-		ul {
-			color: yellow;
-			list-style-image: url("https://img.clipartfox.com/ce7a4eea7d84ee94472001c3daf68309_globe-globe-clipart-vector_4021-4021.png") max-width: "20px";
+		li {
+			color: yellow; 
 			border: 2px solid orange;
 			background-color: green;
 		}
+		li: before{
+			content: '';
+			display: inline-block;
+			height: 5px;
+			width: 5px;
+			background-image: url("https://img.clipartfox.com/ce7a4eea7d84ee94472001c3daf68309_globe-globe-clipart-vector_4021-4021.png");
+		div {
+			border: 5px solid blue;}
+		
 	</style>
 	
 </head>
@@ -42,7 +50,7 @@
 	<li><a href = "#Header">Header</a></li>
 </ol>
 
-	<h1><a name = "XHTML"></a>XHTML & CSS</h1>
+	<div><h1><a name = "XHTML"></a>XHTML & CSS</h1></div>
 	<p>XHTML and CSS are code standards that make websites work. You can view the code of any webiste you visit.</p>
 	<h3><a name = "Editors"></a>Editors</h3>
 	<p>Websites are basically text files. All you need is a simple text editor to make a website. You can use a Intergrated Development Environment.</p>
