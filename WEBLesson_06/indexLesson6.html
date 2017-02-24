@@ -2,17 +2,35 @@
 <html>
 <head>
 	<style type = "text/css">
-	 a{color: red;}
-	 
-	 p{
-	 
-	 
+	 a{
+		color: red;
+		font-size: 30px;
+	 }
+	 div > p {
+		color: green;
+		font-size: 50px;
 	} 
-	 
+	 p:nth-child(2){
+		color: pink;
+		font-size: 50;
+	 }
+	 p:first-letter{
+		font-weight: bold;
+		font-size: 60px;
+		color: brown;
+	 }
+	 P:first-child i {
+		color: orange;
+	 }
+
 	</style>
 </head>
 <body>
-	<p>Here is some things that I have done so far</p>
+	<div>
+	<p>Here is <i>some</i> things that I have done so far.</p>
+	<p>Here is <i>some</i> more things to put here because why not.</p>
+	<p>And then <i>some</i> more text here because we need more text I say, MORE!</p>
+	</div>
 	<a href = "aboutme_06.html"> Notes </a></br>
 	<a href = "universitytable_06.html"> Universities </a>
 </body>
