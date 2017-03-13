@@ -1,0 +1,26 @@
+* {
+	color: blue;
+}
+
+:not(.torrey){
+	
+	color:pink;
+}
+tr:nth-child(odd) > td:nth-child(even){
+	background-color:orange;
+	
+	
+}
+tr:nth-child(odd) > td:nth-child(odd){
+	background-color:purple;
+	
+}
+tr:nth-child(even) > td:nth-child(odd){
+	background-color:orange;
+	
+	
+}
+tr:nth-child(even) > td:nth-child(even){
+	background-color:purple;
+	
+}
